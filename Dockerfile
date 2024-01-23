@@ -44,6 +44,6 @@ RUN pip install -e /home/resstock/buildstockbatch
 
 # clean up installation files 
 RUN rm /ruby-2.7.2.tar.gz
-RUN rm OpenStudio-3.7.0+d5269793f1-Ubuntu-20.04-x86_64.deb
+RUN rm /OpenStudio-3.7.0+d5269793f1-Ubuntu-20.04-x86_64.deb
 
 WORKDIR /home/resstock
