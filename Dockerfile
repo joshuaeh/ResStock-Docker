@@ -37,7 +37,7 @@ ENV PATH=$CONDA_DIR/bin:$PATH
 RUN conda update -n base -c defaults conda
 
 # clone repositories to /home/resstock/ and install buildstockbatch
-RUN git clone --branch v1.7.0 WORKDIR /home/resstock /home/resstock/openstudio-hpxml/
+RUN git clone --branch v1.7.0 https://github.com/NREL/OpenStudio-HPXML.git /home/resstock/openstudio-hpxml/
 RUN git clone --branch v3.2.0 https://github.com/NREL/resstock.git /home/resstock/resstock
 RUN git clone --branch v2023.10.0 https://github.com/NREL/buildstockbatch.git /home/resstock/buildstockbatch
 RUN pip install -e /home/resstock/buildstockbatch
