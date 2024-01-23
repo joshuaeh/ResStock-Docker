@@ -1,4 +1,6 @@
-# ResStock/BuildStockBatch Dockerfile
+# ResStock/BuildStockBatch Dockerfile  
+
+## Docker Image available at [Docker Hub](https://hub.docker.com/repository/docker/joshuaedwardhammond/resstock/general)  
 
 *I had a lot of trouble getting an environment set up, hopefully this helps someone else.*  
 
@@ -30,7 +32,7 @@ ResStock v3.2.0 uses:
 * buildstockbatch v2023.10.0  
 * OpenStudio-HPXML v1.7.0  
 
-## Links:  
+## Links  
 
 **BuildStockBatch**[Repo](https://github.com/NREL/buildstockbatch/)  
 **ResStock**[Repo](https://github.com/NREL/resstock/)  
